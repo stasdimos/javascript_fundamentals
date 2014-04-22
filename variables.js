@@ -1,11 +1,27 @@
 // Exercises: Variables
 
+var x;
+var x = 10
+
 // EXERCISE: The Fortune Teller
 
 // Why pay a fortune teller when you can just program your fortune yourself?
 
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+
+
+
+var numberOfChildren = 3;
+"You will be an "
+
+
+var birthYear = 1987;
+var present = 2014;
+
+
+
+
 
 // EXERCISE: The Age Calculator
 
