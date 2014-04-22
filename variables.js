@@ -10,17 +10,13 @@ var x = 10
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
-
-
 var numberOfChildren = 3;
-"You will be an "
+var partnerName = "girl";
+var location = "toronto";
+var jobTitle = "coder";
 
 
-var birthYear = 1987;
-var present = 2014;
-
-
-
+document.write("You will be a " + jobTitle + " in" + location + " and married to " + partnerName + " with" + numberOfChildren + " kids")
 
 
 // EXERCISE: The Age Calculator
@@ -32,6 +28,13 @@ var present = 2014;
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
 
+
+var birthYear = 1987;
+var present = 2014;
+
+document.write("Your Age is " + present - birthYear)
+
+
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
@@ -41,6 +44,13 @@ var present = 2014;
 // Store an estimated amount per day (as a number).
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var currentAge = 27;
+var maxAge = 100;
+var amountDay = 100;
+
+document.write("You will need " + ((maxAge - currentAge) * 365 * 100) + " to last you until the ripe old age of " + maxAge);
+
 
 // EXERCISE: The Geometrizer
 
