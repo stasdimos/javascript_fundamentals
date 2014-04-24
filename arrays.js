@@ -19,4 +19,3 @@ for ( var i = 0; i < topChoices.length; i++){
     console.log("Error");
   }
 }
-
