@@ -49,6 +49,25 @@ helloWorld("gr")
 // Call that function for a few different scores and log the result to make sure it works.
 
 
+function assignGrade(score){
+  if (score >= 80){
+    document.write("A!");
+  } else if (score >= 70) {
+    document.write("B!");
+  } else if (score >= 60) {
+    document.write("C!");
+  } else if (score >= 50) {
+    document.write("D!");
+  } else {
+    document.write("F! You suck.");
+  }
+}
+
+assignGrade(49)
+assignGrade(51)
+assignGrade(65)
+assignGrade(75)
+assignGrade(85)
 
 
 // EXERCISE: The Pluralizer
@@ -58,6 +77,13 @@ helloWorld("gr")
 // returns the number and pluralized form, like "5 cats" or "1 dog".
 // Call that function for a few different scores and log the result to make sure it works.
 // Bonus: Make it handle a few collective nouns like "sheep" and "geese".
+
+
+// function pluralize(noun, num){
+//   if () {};
+
+// }
+
 
 
 

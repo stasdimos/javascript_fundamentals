@@ -13,6 +13,17 @@
 // cumin
 // cocoa
 
+var favoriteRecipe = {
+  title: "Sushi"
+  servings: 5
+  ingredients: ["rice","seaweed","crab"] 
+}
+
+console.log(favoriteRecipe["title"]);
+console.log(favoriteRecipe["servings"]);
+
+
+
 // EXERCISE: The Reading List
 
 // Keep track of which books you read and which books you want to read!
