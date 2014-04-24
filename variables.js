@@ -60,6 +60,12 @@ document.write("You will need " + ((maxAge - currentAge) * 365 * 100) + " to las
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
 
+var radius = 10;
+
+document.write("The circumference is " + (2 * 3.14 * radius))
+document.write("The area is " + (3.14 * radius * radius))
+
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
@@ -68,5 +74,16 @@ document.write("You will need " + ((maxAge - currentAge) * 365 * 100) + " to las
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+var celsius = 20;
+var fahrenheit = 80;
+
+
+document.write(" " + celsius + "C is " + (((celsius * (9/5)) + 32) + "F"))
+document.write(" " + fahrenheit + "F is " + (((fahrenheit - 32) * (5/9)) + "C")
+
+
+
+
 
 
